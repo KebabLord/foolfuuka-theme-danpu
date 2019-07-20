@@ -1,37 +1,51 @@
 @color_1: #34345c;
 @color_2: #dd0000;
 @color_3: #ffffff;
-@color_4: #f5f5f5;
+@color_4: #000;
 @color_5: inherit;
 @color_6: #333333;
-@color_7: #dddddd;
-@color_8: #eeeeee;
-@color_9: #cccccc;
-@color_10: #777777;
-@color_11: #000000;
-@color_12: #bfbfbf;
-@color_13: #364041;
-@color_14: #0f0c5d;
-@color_15: #117743;
-@color_16: #800080;
-@color_17: #ff0000;
-@color_18: #0000f0;
-@color_19: #888888;
-@color_20: #789922;
-@color_21: black;
-@color_22: #81a2be;
-@color_23: #e6e6e6;
-@color_24: #5f89ac;
-@color_25: #c5c8c6;
-@color_26: #7e3434;
-@color_27: #b294bb;
-@color_28: #b5bd68;
-@color_29: #999999;
-@color_30: #8deb8c;
-@font_family_1: 'IPAMonaPGothic', 'IPA モナー Pゴシック', Mona, 'MS PGothic', 'ＭＳ Ｐゴシック', Osaka, YOzFontAA97, sans-serif;
-@font_family_2: Verdana, Arial, sans-serif;
-@font_family_3: Courier New, Courier, monospace;
-@font_family_4: "Arial", sans-serif;
+@color_7: #ff6464;
+@color_8: #fff;
+@color_9: #eeeeee;
+@color_10: #cccccc;
+@color_11: #777777;
+@color_12: #000000;
+@color_13: #fe57a1;
+@color_14: #364041;
+@color_15: #e3ffde;
+@color_16: #117743;
+@color_17: #800080;
+@color_18: #ff0000;
+@color_19: #0000f0;
+@color_20: #007FFF;
+@color_21: #145031;
+@color_22: #FF0080;
+@color_23: #888888;
+@color_24: #789922;
+@color_25: black;
+@color_26: #bfbfbf;
+@color_27: #81a2be;
+@color_28: #e6e6e6;
+@color_29: #5f89ac;
+@color_30: #c5c8c6;
+@color_31: #7e3434;
+@color_32: #b294bb;
+@color_33: #b5bd68;
+@color_34: #999999;
+@color_35: #8deb8c;
+@color_36: #FFFFFF;
+@color_37: #c41e3a;
+@color_38: #00a550;
+@color_39: #1d8dc4;
+@color_40: #FE57A1;
+@color_41: #8A4151;
+@color_42: #ff043c;
+@color_43: #ca4980;
+@font_family_1: Verdana, Arial, sans-serif;
+@font_family_2: Courier New, Courier, monospace;
+@font_family_3: "Arial", sans-serif;
+@font_family_4: 'IPAMonaPGothic', 'IPA モナー Pゴシック', Mona, 'MS PGothic', 'ＭＳ Ｐゴシック', Osaka, YOzFontAA97, monospace;
+@font_family_5: monospace;
 @background_color_1: #222222;
 @background_color_2: rgba(0, 0, 0, 0.1);
 @background_color_3: #eeeeee;
@@ -42,14 +56,39 @@
 @background_color_8: #757575;
 @background_color_9: #c5c8c6;
 @background_color_10: #282a2e;
-@border_color_1: #000000;
-@border_color_2: #121315;
+@background_color_11: #0000;
+@background_color_12: #C4FCC4;
+@border_color_1: #FCBCCC;
+@border_color_2: #000000;
+@border_color_3: #121315;
+@border_color_4: #B16878;
+@border_top_color_1: #ff6464;
 @border_right_color_1: #dddddd;
 @border_right_color_2: rgba(0, 0, 0, 0.15);
 @border_right_color_3: rgba(255, 255, 255, 0.15);
 @border_bottom_color_1: rgba(126, 126, 126, 0.3);
 @border_bottom_color_2: #eeeeee;
 
+/* DANPU THEME FOR MAGYARCHAN & ASAGI BASED BOARDS
+ * Import of the stylesheet from 8ch's /danpu/ to fork of foolfuka default
+ * Original css: https://github.com/KebabLord/futaba-on-8chan-css/blob/master/danpu.css
+ * Foolfuka Default: https://github.com/FoolCode/FoolFuuka/tree/master/assets/themes/foolz/foolfuuka-theme-foolfuuka
+ * Magic Starts at line: 1282
+*/
+/* MAGIC STARTS HERE */
+/* Remove the gooseshit-green */
+/* View,Report,Reply,Delete */
+/* Monospace for Author,title,filename */
+/* Cute post titles */
+/* Pages at the bottom */
+/* Omitted Text */
+/* Some other themes this site using also hidden rules too ¯\_(ツ)_/¯ */
+/*Hide the horizontal line between links and input box*/
+/* Dropdown and link's color*/
+/* Line between post */
+/* Post input buttons style*/
+/* Turn search button into futaba channel's logo, 
+(search console can be reach through clicking the start also visible when you hover it)*/
 .theme_danpu {
 	a {
 		color: @color_1;
@@ -121,7 +160,6 @@
 		}
 		label {
 			min-width: 85px;
-			color: @color_19;
 		}
 		.rules {
 			font-size: 11px;
@@ -157,15 +195,6 @@
 	p {
 		margin: 2px 0 7px;
 	}
-	.shift-jis {
-		font-family: @font_family_1 !important;
-		font-size: 16px !important;
-	}
-	&::-moz-selection {
-		background: #fe57a1;
-		color: @color_3;
-		text-shadow: none;
-	}
 	&::selection {
 		background: #fe57a1;
 		color: @color_3;
@@ -174,11 +203,11 @@
 	.container-fluid {
 		position: static;
 		padding: 0;
-		background: #eef8f0;
 		min-height: 100%;
 		height: auto !important;
 		height: 100%;
 		margin: 0 auto -40px;
+		background-color: @background_color_11;
 	}
 	.btn-inverse {
 		background: #77947d;
@@ -206,7 +235,6 @@
 		}
 	}
 	#footer {
-		background: #6a836f;
 		color: @color_4;
 		font-size: 11px;
 		height: 28px;
@@ -255,13 +283,13 @@
 						line-height: 8px;
 					}
 					&:hover {
-						color: @color_3;
+						color: @color_8;
 					}
 				}
 			}
 		}
 		.navbar-inner {
-			background: #6a836f;
+			background: transparent;
 			box-shadow: none;
 		}
 		.divider-vertical {
@@ -285,6 +313,8 @@
 		color: @color_7;
 		margin: 4px 0 -2px;
 		padding: 0 30px;
+		background-color: @background_color_11;
+		color: @color_7;
 		a {
 			color: @color_5;
 			&:hover {
@@ -296,15 +326,15 @@
 	.navbar-search {
 		.search-query {
 			background: rgba(0, 0, 0, 0.3);
-			color: @color_8;
+			color: @color_9;
 			text-shadow: none;
 			width: 390px;
 			&::-webkit-input-placeholder {
-				color: @color_9;
+				color: @color_10;
 				text-shadow: none;
 			}
 			&::-moz-placeholder {
-				color: @color_9;
+				color: @color_10;
 				text-shadow: none;
 			}
 		}
@@ -313,7 +343,7 @@
 		label {
 			display: inline;
 			margin-bottom: 0;
-			color: @color_10;
+			color: @color_11;
 			font-size: 13px;
 		}
 	}
@@ -579,7 +609,7 @@
 		&:hover {
 			border: 1px solid #888888;
 			border: 1px solid rgba(0, 0, 0, 0.4);
-			color: @color_11;
+			color: @color_12;
 			text-decoration: none;
 			cursor: pointer;
 		}
@@ -633,17 +663,19 @@
 		word-wrap: break-word;
 		border-top: 1px solid #364041;
 		border-top: 1px solid rgba(0, 0, 0, 0.5);
+		border-top-width: 2px;
+		border-top-color: @border_top_color_1;
 		.post_type_is_op {
 			font-weight: bold;
-			color: @color_11;
+			color: @color_12;
 		}
 		.post_show_board {
 			font-weight: bold;
-			color: @color_11;
+			color: @color_12;
 		}
 		>header {
 			overflow: hidden;
-			font-family: @font_family_2;
+			font-family: @font_family_1;
 			margin-left: 23px;
 		}
 		>.thread_image_box {
@@ -651,8 +683,7 @@
 			margin: 0 20px 10px 15px;
 			z-index: 5;
 			text-align: center;
-			color: @color_12;
-			text-shadow: 0px 1px 0px #ffffff;
+			color: @color_13;
 			font-size: 0.8em;
 			line-height: 150%;
 			.thread_image.is_spoiler_image {
@@ -679,7 +710,7 @@
 			margin-left: 30px;
 			padding: 6px 0px;
 			.omitted {
-				color: @color_13;
+				color: @color_14;
 				font-weight: bold;
 				font-size: 14px;
 				position: relative;
@@ -697,7 +728,7 @@
 		}
 		h2.post_title {
 			font-weight: bold;
-			color: @color_14;
+			color: @color_15;
 			padding: 0;
 			margin: 0;
 			font-size: 1em;
@@ -711,31 +742,43 @@
 		}
 		.post_author {
 			font-weight: bold;
-			color: @color_15;
+			color: @color_16;
 		}
 		.post_tripcode {
 			font-weight: normal;
-			color: @color_15;
+			color: @color_16;
 		}
 		.poster_hash {
-			font-family: @font_family_3;
+			font-family: @font_family_2;
 		}
 		.post_level {
 			font-weight: bold;
 		}
 		.post_level.post_level_moderator {
-			color: @color_16;
-		}
-		.post_level.post_level_administrator {
 			color: @color_17;
 		}
-		.post_level.post_level_developer {
+		.post_level.post_level_administrator {
 			color: @color_18;
+		}
+		.post_level.post_level_developer {
+			color: @color_19;
+		}
+		.post_level.post_level_verified {
+			color: @color_20;
+		}
+		.post_level.post_level_founder {
+			color: @color_21;
+		}
+		.post_level.post_level_manager {
+			color: @color_22;
 		}
 		.backlink_list {
 			font-size: 11px;
-			color: @color_19;
+			color: @color_23;
 			display: none;
+		}
+		>.backlink_list {
+			padding-left: 23px;
 		}
 		.report_reason {
 			background: #cfdffe;
@@ -749,7 +792,6 @@
 		}
 		>.report_reason {
 			margin-bottom: 10px;
-			max-width: 600px;
 		}
 		>.text {
 			padding: 10px 10px 10px 30px;
@@ -769,15 +811,15 @@
 			margin: 0px 5px 3px 16px;
 		}
 		.greentext {
-			color: @color_20;
+			color: @color_24;
 		}
 		.spoiler {
 			.greentext {
-				color: @color_21;
+				color: @color_25;
 			}
 			&:hover {
 				.greentext {
-					color: @color_20;
+					color: @color_24;
 				}
 			}
 		}
@@ -785,7 +827,6 @@
 			border-bottom: 1px dotted #000000;
 		}
 		.thread_form_wrap {
-			border: 2px solid #364041;
 			float: left;
 			margin: 20px;
 			padding-bottom: 20px;
@@ -797,18 +838,16 @@
 			border-top: none;
 		}
 	}
-	article {
-		.post_mod_controls {
-			display: none;
-		}
-	}
 	.post_wrapper {
 		display: table-cell;
 		margin: 2px 10px 2px 20px;
 		margin-right: 0px;
 		padding: 0 0 10px 10px;
-		background: #d6f0da;
 		border-bottom: 1px solid #cccccc;
+		background: #E3FFDE;
+		border-width: 3px;
+		border-style: dashed;
+		border-color: @border_color_1;
 		>.text {
 			padding: 7px 10px 0px 15px;
 			word-wrap: break-word;
@@ -816,7 +855,7 @@
 		>.thread_image_box {
 			float: left;
 			text-align: center;
-			color: @color_19;
+			color: @color_23;
 			margin: 0 10px 0 4px;
 			font-size: 0.8em;
 			line-height: 130%;
@@ -839,7 +878,7 @@
 			display: block;
 			overflow: hidden;
 			font-size: 11px;
-			color: @color_19;
+			color: @color_23;
 			line-height: 18px;
 			margin-top: 3px;
 			margin-right: 5px;
@@ -852,7 +891,7 @@
 			overflow: hidden;
 			padding-top: 5px;
 			display: -moz-inline-stack;
-			font-family: @font_family_2;
+			font-family: @font_family_1;
 		}
 	}
 	.post.post_ghost {
@@ -867,6 +906,7 @@
 	}
 	.backlink {
 		display: inline-block;
+		color: @color_43;
 	}
 	#backlink {
 		box-shadow: 0px 0px 3px #333333;
@@ -907,8 +947,8 @@
 	}
 	.thread_form_wrap {
 		background: #d6f0da;
-		border-bottom: 2px solid #364041;
 		padding: 8px 20px 5px 20px;
+		background-color: @background_color_11;
 	}
 	&::-webkit-file-upload-button {
 		margin-left: 2px;
@@ -1023,11 +1063,11 @@
 		margin: auto;
 	}
 	.spoiler {
-		color: @color_11;
+		color: @color_12;
 		background: #000000;
 		&:hover {
 			color: @color_3;
-			color: @color_8;
+			color: @color_9;
 		}
 	}
 	.overline {
@@ -1043,7 +1083,7 @@
 		text-decoration: overline underline;
 	}
 	.banned {
-		color: @color_17;
+		color: @color_18;
 		font-weight: bold;
 	}
 	.is_spam {
@@ -1053,6 +1093,9 @@
 		padding: 2px 10px 2px 35px;
 		height: 36px;
 		background: #ddebdd;
+		background-color: @background_color_12;
+		border-style: double;
+		font-family: @font_family_5;
 		a {
 			float: left;
 			padding: 0 14px;
@@ -1100,10 +1143,10 @@
 		.disabled {
 			a {
 				background-color: @background_color_5;
-				color: @color_12;
+				color: @color_26;
 				&:hover {
 					background-color: @background_color_5;
-					color: @color_12;
+					color: @color_26;
 				}
 			}
 		}
@@ -1141,6 +1184,128 @@
 	.text-small {
 		font-size: 1em !important;
 	}
+	article {
+		.post_extra_mod {
+			display: none;
+		}
+		.alert-info {
+			color: @color_14;
+		}
+		.post_mod {
+			padding: 5px 0 0 0;
+		}
+		.post_mod_controls {
+			padding: 5px 0 0 5px;
+			display: none;
+		}
+	}
+	.modal-information {
+		label {
+			min-width: 95px;
+		}
+	}
+	.thread_tools_bottom {
+		>.post_mod {
+			clear: none;
+		}
+		>.post_mod_controls {
+			clear: none;
+		}
+	}
+	.post_mod {
+		clear: both;
+	}
+	.post_mod_controls {
+		clear: both;
+	}
+	span.highlight {
+		background: #6A836F;
+		color: @color_36;
+		font-weight: bold;
+	}
+	.navbar-inner {
+		background-color: @background_color_11;
+		border: none;
+	}
+	header {
+		a.btnr.parent {
+			border: none;
+			text-decoration: underline;
+			font-family: @font_family_5;
+			color: @color_18;
+		}
+	}
+	.post_author {
+		font-family: @font_family_5;
+	}
+	.post_title {
+		font-family: @font_family_5;
+		margin-right: 3px;
+		text-shadow: 1px 1px #fc7494;
+	}
+	.post_file_filename {
+		font-family: @font_family_5;
+	}
+	.omitted_text {
+		color: @color_40;
+		font-family: @font_family_5;
+	}
+	.rules_box {
+		display: none;
+	}
+	.rules {
+		td {
+			border-bottom: none;
+		}
+	}
+	.navbar-inverse {
+		border: none;
+	}
+	.dropdown-toggle {
+		color: @color_7;
+	}
+	.nav {
+		a {
+			color: @color_7;
+		}
+	}
+	label.add-on {
+		background: #EAE3D3;
+		font-family: @font_family_5;
+		color: @color_41;
+		border-color: @border_color_4 !important;
+	}
+	input.btn {
+		background: #EAE3D3;
+		font-family: @font_family_5;
+		color: @color_41;
+		border-color: @border_color_4 !important;
+	}
+	.nav.pull-right {
+		box-sizing: border-box !important;
+		background: url(https://kebabland.neocities.org/host/banner.png) no-repeat;
+		width: 384px;
+		height: 100px;
+		border: 0px;
+		input {
+			opacity: 0;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+	i {
+		color: @color_42;
+	}
+}
+} {
+	.theme_danpu {
+		&::-moz-selection {
+			background: #fe57a1;
+			color: @color_3;
+			text-shadow: none;
+		}
+	}
 }
 input[type="radio"] {
 	margin-top: 0;
@@ -1150,39 +1315,48 @@ input[type="checkbox"] {
 }
 .theme_danpu.midnight {
 	a {
-		color: @color_22;
+		color: @color_27;
 		&:visited {
-			color: @color_22;
+			color: @color_27;
 		}
 		&:hover {
-			color: @color_24;
+			color: @color_29;
+		}
+	}
+	.btnr {
+		color: @color_27;
+		&:visited {
+			color: @color_27;
+		}
+		&:hover {
+			color: @color_29;
 		}
 	}
 	.thread_form {
 		textarea {
 			background-color: @background_color_7;
 			border: 1px solid #494949;
-			color: @color_23;
+			color: @color_28;
 		}
 		input[type=text] {
 			background-color: @background_color_7;
 			border: 1px solid #494949;
-			color: @color_23;
+			color: @color_28;
 		}
 		input[type=password] {
 			background-color: @background_color_7;
 			border: 1px solid #494949;
-			color: @color_23;
+			color: @color_28;
 		}
 		select {
 			background-color: @background_color_7;
 			border: 1px solid #494949;
-			color: @color_23;
+			color: @color_28;
 		}
 		input[type=file] {
 			background-color: @background_color_7;
 			border: 1px solid #494949;
-			color: @color_23;
+			color: @color_28;
 		}
 		.input-append {
 			.add-on {
@@ -1198,37 +1372,37 @@ input[type="checkbox"] {
 		}
 		label {
 			background-color: @background_color_7;
-			color: @color_23;
+			color: @color_28;
 		}
 		.rules {
-			color: @color_25;
+			color: @color_30;
 		}
 	}
 	.thread_form.uneditable-input {
 		background-color: @background_color_7;
 		border: 1px solid #494949;
-		color: @color_23;
+		color: @color_28;
 	}
 	&::-moz-selection {
 		background-color: @background_color_8 !important;
 	}
 	&::selection {
-		background-color: @background_color_8 !important;
+		background: rgba(117, 117, 117, 0.996) !important;
 	}
 	.container {
 		background: #000000;
-		color: @color_25;
+		color: @color_30;
 	}
 	.container-fluid {
 		background: #1d1f21;
-		color: @color_25;
+		color: @color_30;
 	}
 	.btn-group {
-		color: @color_11;
+		color: @color_12;
 	}
 	.dropdown-menu {
 		a {
-			color: @color_21 !important;
+			color: @color_25 !important;
 		}
 	}
 	.btn-inverse {
@@ -1236,13 +1410,13 @@ input[type="checkbox"] {
 	}
 	#footer {
 		background: #000000;
-		color: @color_25;
+		color: @color_30;
 		a {
-			color: @color_25;
+			color: @color_30;
 		}
 		ul {
 			a {
-				color: @color_11;
+				color: @color_12;
 			}
 		}
 	}
@@ -1250,17 +1424,20 @@ input[type="checkbox"] {
 		.nav {
 			>li {
 				>a {
-					color: @color_25;
+					color: @color_30;
 				}
 			}
+		}
+		.navbar-inner {
+			background: #000000;
 		}
 	}
 	.letters {
 		background: #000000;
-		color: @color_25;
+		color: @color_30;
 		a {
 			&:visited {
-				color: @color_25 !important;
+				color: @color_30 !important;
 			}
 		}
 	}
@@ -1271,27 +1448,27 @@ input[type="checkbox"] {
 		}
 	}
 	.search_box {
-		color: @color_11;
+		color: @color_12;
 	}
 	#main {
 		.section_title {
-			border-color: @border_color_1;
+			border-color: @border_color_2;
 		}
 	}
 	article.thread {
 		.post_type_is_op {
-			color: @color_26;
+			color: @color_31;
 		}
 		.post_show_board {
-			color: @color_26;
+			color: @color_31;
 		}
 		>.thread_image_box {
-			color: @color_25;
+			color: @color_30;
 			text-shadow: none;
 		}
 		>.thread_tools_bottom {
 			.omitted {
-				color: @color_25;
+				color: @color_30;
 			}
 		}
 		.post_type {
@@ -1300,31 +1477,31 @@ input[type="checkbox"] {
 			}
 		}
 		h2.post_title {
-			color: @color_27;
+			color: @color_32;
 		}
 		.post_author {
-			color: @color_8;
+			color: @color_9;
 		}
 		.post_tripcode {
-			color: @color_8;
+			color: @color_9;
 		}
 		.report_reason {
 			background: #203357;
 			border: 1px solid #17399b;
 		}
 		>.text {
-			color: @color_25;
+			color: @color_30;
 		}
 		.greentext {
-			color: @color_28;
+			color: @color_33;
 		}
 		.spoiler {
 			.greentext {
-				color: @color_29;
+				color: @color_34;
 			}
 			&:hover {
 				.greentext {
-					color: @color_30;
+					color: @color_35;
 				}
 			}
 		}
@@ -1339,7 +1516,7 @@ input[type="checkbox"] {
 	}
 	.post {
 		.post_data {
-			color: @color_25;
+			color: @color_30;
 		}
 	}
 	.post.post_ghost {
@@ -1363,7 +1540,7 @@ input[type="checkbox"] {
 	}
 	.thread_form_wrap {
 		background: #282a2e;
-		border-color: @border_color_1;
+		border-color: @border_color_2;
 	}
 	#reply_ajax_notices.error {
 		background: #5f2627;
@@ -1373,12 +1550,12 @@ input[type="checkbox"] {
 	}
 	#reply_ajax_notices.success {
 		background: #484a4e;
-		border-color: @border_color_2;
-		color: @color_25;
+		border-color: @border_color_3;
+		color: @color_30;
 	}
 	#thread_o_matic {
 		>article.thread {
-			border-color: @border_color_1;
+			border-color: @border_color_2;
 			&:nth-of-type(n {
 				&+5) {
 					border-top: 2px solid #222222;
@@ -1387,21 +1564,24 @@ input[type="checkbox"] {
 		}
 	}
 	.js_hook_realtimethread {
-		color: @color_25;
-		border-color: @border_color_1;
+		color: @color_30;
+		border-color: @border_color_2;
 	}
 	.spoiler {
-		color: @color_23;
+		color: @color_28;
 		background: #e6e6e6;
 		&:hover {
-			color: @color_11;
+			color: @color_12;
 		}
 	}
 	.paginate {
 		background: #3e3e3e;
 		a {
-			color: @color_11;
+			color: @color_12;
 		}
+	}
+	.modal {
+		color: @color_12;
 	}
 	.table-striped {
 		tbody {
@@ -1414,6 +1594,9 @@ input[type="checkbox"] {
 			}
 		}
 	}
+	span.highlight {
+		background: #000000;
+	}
 }
 html {
 	height: 100%;
@@ -1422,20 +1605,17 @@ html {
 }
 body.theme_danpu {
 	height: 100%;
-	background: #6a836f;
-	color: @color_13;
+	background: url('https://kebabland.neocities.org/host/futaba.png') no-repeat no-repeat fixed bottom right, url('https://kebabland.neocities.org/host/background.png') repeat !important;
+	background-size: 20%, auto !important;
+	color: @color_14;
 	padding: 0;
 	margin: 0;
-	font-family: @font_family_4;
-}
-body.theme_danpu.midnight {
-	background: #222222;
-	color: @color_25;
+	font-family: @font_family_3;
 }
 a.visited {
 	color: @color_5;
-	color: @color_25;
-	color: @color_11;
+	color: @color_30;
+	color: @color_12;
 }
 .navbar-inverse {
 	.nav {
@@ -1496,4 +1676,27 @@ a.visited {
 }
 code.hljs {
 	display: inline;
+}
+.btn-group {
+	&+.btn-group {
+		margin-left: 0 !important;
+	}
+}
+.shift-jis {
+	font-size: 16px;
+	line-height: 17px;
+	font-family: @font_family_4;
+}
+span.shift-jis {
+	white-space: pre;
+	overflow: auto;
+}
+.qst-color.red {
+	color: @color_37;
+}
+.qst-color.green {
+	color: @color_38;
+}
+.qst-color.blue {
+	color: @color_39;
 }
