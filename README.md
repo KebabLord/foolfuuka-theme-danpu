@@ -1,0 +1,1 @@
+# foolfuuka plugin
