@@ -1,6 +1,6 @@
 <?php
 
-namespace Foolz\FoolFuuka\Theme\FoolFuuka\Partial;
+namespace Foolz\FoolFuuka\Theme\Danpu\Partial;
 
 use Foolz\FoolFuuka\Model\Comment;
 use Foolz\FoolFuuka\Model\CommentBulk;

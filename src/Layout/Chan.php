@@ -1,6 +1,6 @@
 <?php
 
-namespace Foolz\FoolFuuka\Theme\FoolFuuka\Layout;
+namespace Foolz\FoolFuuka\Theme\Danpu\Layout;
 
 class Chan extends \Foolz\FoolFuuka\View\View
 {

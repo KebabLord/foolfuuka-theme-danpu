@@ -1,6 +1,6 @@
 <?php
 
-namespace Foolz\FoolFuuka\Theme\FoolFuuka\Partial;
+namespace Foolz\FoolFuuka\Theme\Danpu\Partial;
 
 class AdvancedSearch extends \Foolz\FoolFuuka\View\View
 {
