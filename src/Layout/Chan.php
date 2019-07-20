@@ -21,7 +21,7 @@ class Chan extends \Foolz\FoolFuuka\View\View
 
     public function getSelectedThemeClass()
     {
-        return 'theme_default'.($this->getBuilder()->getStyle() == 'midnight' ? ' midnight' : '');
+        return 'theme_danpu'.($this->getBuilder()->getStyle() == 'midnight' ? ' midnight' : '');
     }
 
     public function getStyles()
