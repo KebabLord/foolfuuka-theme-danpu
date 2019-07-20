@@ -1188,7 +1188,7 @@ html {
 
 body.theme_danpu {
   height: 100%;
-  background: url('https://kebabland.neocities.org/host/futaba.png') no-repeat no-repeat fixed bottom right, url('https://kebabland.neocities.org/host/background.png') repeat !important;
+  background: url(images/futaba.png) no-repeat no-repeat fixed bottom right, url(images/background.png) repeat !important;
   background-size: 20%, auto !important;
   color: #364041;
   padding: 0;
@@ -1367,7 +1367,7 @@ span.shift-jis {
 (search console can be reach through clicking the start also visible when you hover it)*/
 .theme_danpu .nav.pull-right{
   box-sizing: border-box!important;
-  background: url(https://kebabland.neocities.org/host/banner.png) no-repeat;
+  background: url(images/banner.png) no-repeat;
   width:      384px; /* Width of new image */
   height:     100px; /* Height of new image */
   border:     0px;
