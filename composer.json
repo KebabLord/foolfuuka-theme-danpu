@@ -1,7 +1,7 @@
 {
   "name": "foolz/foolfuuka-theme-danpu",
   "type": "foolz-foolfuuka-theme",
-  "description": "Some 8chan theme",
+  "description": "Theme from 8ch /danpu/",
   "version": "0.9",
   "keywords": [
     "theme",
@@ -9,16 +9,16 @@
     "danpu",
     "foolfuuka"
   ],
-  "homepage": "http://roachchan.tr",
+  "homepage": "https://github.com/KebabLord/",
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "juchi",
-      "email": "juchi@ryykkkkkoachchan.tr"
+      "name": "junicchi",
+      "email": "junicchi@8chan.co"
     }
   ],
   "support": {
-    "email": "juchi@ryykkkkkoachchan.tr",
+    "email": "junicchi@8chan.co",
     "irc": "irc://irc.freenode.net/magyarchan"
   },
   "require": {
