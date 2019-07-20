@@ -1,6 +1,6 @@
 <?php
 
-namespace Foolz\FoolFuuka\Theme\FoolFuuka\Partial;
+namespace Foolz\FoolFuuka\Theme\Danpu\Partial;
 
 class Error extends \Foolz\FoolFuuka\View\View
 {
