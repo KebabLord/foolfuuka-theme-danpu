@@ -2,14 +2,14 @@
   "name": "foolz/foolfuuka-theme-danpu",
   "type": "foolz-foolfuuka-theme",
   "description": "Theme from 8ch /danpu/",
-  "version": "0.1",
+  "version": "0.2",
   "keywords": [
     "theme",
     "8chan",
     "danpu",
     "foolfuuka"
   ],
-  "homepage": "https://github.com/KebabLord/",
+  "homepage": "https://github.com/KebabLord/foolfuuka-theme-danpu",
   "license": "Apache-2.0",
   "authors": [
     {
